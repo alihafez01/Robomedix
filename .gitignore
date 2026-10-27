@@ -1,0 +1,53 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/secrets/
+**/*service-account*.json
+**/*firebase*adminsdk*.json
+
+# Python environments, bytecode, and test/tool caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node dependencies and generated builds
+node_modules/
+**/node_modules/
+build/
+dist/
+coverage/
+.next/
+
+# Local databases and logs
+*.sqlite3
+*.db
+*.log
+/demo video.mp4
+
+# Machine-learning data and generated model weights
+**/disease_diagnosis.csv
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.pkl
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Arduino build output
+*.hex
+*.elf
+*.o
+*.d
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
